@@ -164,4 +164,5 @@ Situado en la raiz, ejecutar  ```docker build -t open-metadata-madrid-connector 
 
 Una vez creado, podemos acceder al directorio ```docker``` y realizar ```docker-compose up -d```
 
+Una vez desplegado, acudimos a ```Configuraciones > Servicios > Bases de Datos > Custom Database```. Como ``` Source Python Class Name ``` especificamos ```connector.madrid_connector.MadridOpenDataConnector```
 
